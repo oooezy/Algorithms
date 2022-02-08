@@ -1,20 +1,16 @@
 /*
-Title     : 1920. Build Array from Permutation
-URL       : https://leetcode.com/problems/build-array-from-permutation/
+Title     : 1913. Maximum Product Difference Between Two Pairs
+URL       : https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
 Author    : EUNJI LEE
-Created   : 2022.01.27
+Created   : 2022.02.09
 */
 
 // Solution 1.
 class Solution {
-    func buildArray(_ nums: [Int]) -> [Int] {
-        var res = nums
+    func maxProductDifference(_ nums: [Int]) -> Int {
+        let sorted = nums.sorted() 
+        let len = sorted.count
         
-        for i in nums {
-            res[i] = nums[nums[i]]
-        }
-        
-        return res
+        return (sorted[len - 2] * sorted[len - 1]) - (sorted[0] * sorted[1])
     }
 }
-

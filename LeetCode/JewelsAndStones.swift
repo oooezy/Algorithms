@@ -1,20 +1,13 @@
 /*
-Title     : 1920. Build Array from Permutation
-URL       : https://leetcode.com/problems/build-array-from-permutation/
+Title     : 771. Jewels and Stones
+URL       : https://leetcode.com/problems/jewels-and-stones/
 Author    : EUNJI LEE
-Created   : 2022.01.27
+Created   : 2022.02.09
 */
 
 // Solution 1.
 class Solution {
-    func buildArray(_ nums: [Int]) -> [Int] {
-        var res = nums
-        
-        for i in nums {
-            res[i] = nums[nums[i]]
-        }
-        
-        return res
+    func numJewelsInStones(_ jewels: String, _ stones: String) -> Int {
+        return stones.filter({ jewels.contains($0) }).count
     }
 }
-

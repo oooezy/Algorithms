@@ -7,5 +7,5 @@ Created   : 2022.02.23
 
 // Solution 1.
 func solution(_ arr:[Int]) -> Double {
-    return arr.reduce(0, +) / arr.count
+    return Double(arr.reduce(0, +)) / Double(arr.count)
 }

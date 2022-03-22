@@ -8,5 +8,5 @@ Created   : 2022.02.20
 // Solution 1.
 func solution(_ arr:[Int]) -> [Int] {
    let min = arr.min()
-    return arr.isEmpty ? [-1] : arr.compactMap{ $0 != min ? $0 : nil }
+    return arr.count == 1 ? [-1] : arr.compactMap{ $0 != min ? $0 : nil }
 }

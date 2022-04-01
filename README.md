@@ -30,7 +30,7 @@
 |   1859   |              [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/SortingTheSentence.swift)               |   1221   |          [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/SplitAStringInBalancedStrings.swift)           |
 |   1588   |          [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/SumOfAllOddLengthSubarrays.swift)           |   709    |                   [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/ToLowerCase.swift)                    |
 |   1816   |               [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/TruncateSentence.swift)                |    1     |                      [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/TwoSum.swift)                      |
-|   804    |             [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/UniqueMorseCodeWords.swift)              |          |                                                        [Code]()                                                        |
+|   804    |             [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/UniqueMorseCodeWords.swift)              |
 
 ## 🔥 Programmers
 

@@ -31,7 +31,7 @@
 |   1588   |          [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/SumOfAllOddLengthSubarrays.swift)           |   709    |                   [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/ToLowerCase.swift)                    |
 |   1816   |               [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/TruncateSentence.swift)                |    1     |                      [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/TwoSum.swift)                      |
 |   804    |             [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/UniqueMorseCodeWords.swift)              |   217    |                [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/ContainsDuplicate.swift)                 |
-|   371    |           [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/Sum%20of%20Two%20Integers.swift)           |
+|   371    |           [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/Sum%20of%20Two%20Integers.swift)           |   191    |              [Code](https://github.com/oooezy/Algorithms/blob/main/LeetCode/Number%20of%201%20Bits.swift)              |
 
 ## 🔥 Programmers
 

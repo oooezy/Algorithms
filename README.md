@@ -130,3 +130,4 @@
 | BinaryGap             |       [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/BinaryGap.swift)       | CyclicRotation  | [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/CyclicRotation.swift)  |
 | OddOccurrencesInArray | [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/OddOccurrencesInArray.swift) | FrogJmp         |     [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/FrogJmp.swift)     |
 | PermMissingElem       |    [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/PermMissingElem.swift)    | TapeEquilibrium | [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/TapeEquilibrium.swift) |
+| FrogRiverOne          |     [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/FrogRiverOne.swift)      | PermCheck       |    [Code](https://github.com/oooezy/Algorithms/blob/main/Codility/PermCheck.swift)    |

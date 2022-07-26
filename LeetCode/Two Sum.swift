@@ -35,3 +35,22 @@ class Solution {
         return []
     }
 }
+
+// Solution 3.
+class Solution {
+        func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var dict = [Int:Int]()
+        
+        for (index, value) in nums.enumerated() {
+            let diff = target - value
+            
+            if let comp = dict[diff] {
+                return [comp, index]
+            } else {
+                dict[value] = index
+            }  
+        }
+        
+        return []
+    }
+}

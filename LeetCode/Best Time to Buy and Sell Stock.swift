@@ -25,3 +25,18 @@ class Solution {
         return result
     }
 }
+
+// Solution 2.
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
+        var minPrice = Int.max
+        var result = 0
+        
+        for price in prices {
+            minPrice = min(minPrice, price)
+            result = max(result, price - minPrice)
+        }
+        
+        return result
+    }
+}

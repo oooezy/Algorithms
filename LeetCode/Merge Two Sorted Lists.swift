@@ -20,3 +20,29 @@ class Solution {
         }
     }
 }
+
+// Solution 2.
+class Solution {
+    func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        var list1 = l1
+        var list2 = l2
+        
+        let head: ListNode = ListNode(0)
+        var temp = head
+        
+        while list1 != nil && list2 != nil {
+            if list1!.val > list2!.val {
+                temp.next = list2!
+                list2 = list2!.next
+            } else {
+                temp.next = list1!
+                list1 = list1!.next
+            }
+            
+            temp = temp.next!
+        }
+        
+        temp.next = list1 ?? list2
+        return head.next
+    }
+}

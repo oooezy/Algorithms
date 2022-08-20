@@ -20,3 +20,10 @@ class Solution {
         return false
     }
 }
+
+// Solution 2.
+class Solution {
+    func containsDuplicate(_ nums: [Int]) -> Bool {
+        return Set(nums).count != nums.count
+    }
+}

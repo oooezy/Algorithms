@@ -48,3 +48,46 @@ func solution(_ numbers:[Int], _ hand:String) -> String {
 
     return result
 }
+
+// Solution 2.
+import Foundation
+
+func solution(_ numbers:[Int], _ hand:String) -> String {
+    var result: String = ""
+    let left = [1: (0, 0), 4: (1, 0), 7: (2, 0)]
+    let right = [3: (0, 2), 6: (1, 2), 9: (2, 2)]
+    let middle = [2: (0, 1), 5: (1, 1), 8: (2, 1), 0: (3, 1)]
+    var leftHand = (3, 0), rightHand = (3, 2)
+	
+    for num in numbers {
+        if let matrix = left[num] {
+            leftHand = matrix
+            result += "L"
+        } else if let matrix = right[num] {
+            rightHand = matrix
+            result += "R"
+        } else {
+            let matrix = middle[num]!
+            var l_dist = abs(matrix.0 - leftHand.0) + abs(matrix.1 - leftHand.1)
+            var r_dist = abs(matrix.0 - rightHand.0) + abs(matrix.1 - rightHand.1)
+            
+            if l_dist < r_dist {
+                leftHand = matrix
+                result += "L"
+            } else if l_dist > r_dist {
+                rightHand = matrix
+                result += "R"
+            } else {
+                if hand == "right" {
+                    rightHand = matrix
+                    result += "R"
+                } else {
+                    leftHand = matrix
+                    result += "L"
+                }
+            }
+        }
+    }
+    
+    return result
+}

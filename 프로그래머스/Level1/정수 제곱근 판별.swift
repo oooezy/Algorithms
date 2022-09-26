@@ -10,5 +10,5 @@ import Foundation
 
 func solution(_ n:Int64) -> Int64 {
     let answer = Int64(sqrt(Double(n)))
-    return answer != nil ? (answer + 1) * (answer + 1) : -1
+    return answer * answer == n ? (answer + 1) * (answer + 1) : -1
 }
